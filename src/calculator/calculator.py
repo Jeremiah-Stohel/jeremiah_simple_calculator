@@ -1,5 +1,13 @@
 """This module contains the calculator functions for the formulas square, tri, lazy caterer, and magic squares"""
+#added hypotenuse, circleArea, and average as additional functions.
+import math
 
+def hypotenuse(a,b):
+    return math.sqrt(a*a + b*b)
+def circleArea(radius):
+    return math.pi * radius * radius
+def average(a,b):
+    return (a + b) / 2
 
 def squareNums(n):
     """Calculates the square"""
